@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>洛谷新闻台</title>
+    <style>
+        /* 全局样式 */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+        }
+        nav {
+            background-color: #555;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            padding: 0 15px;
+        }
+        nav a:hover {
+            color: #ccc;
+        }
+        .content {
+            background-color: #fff;
+            padding: 20px;
+            margin-top: 20px;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+        }
+
+        /* 响应式样式 */
+        @media (max-width: 768px) {
+            .container {
+                width: 95%;
+            }
+            nav {
+                display: none; /* 隐藏导航栏，改为汉堡菜单 */
+            }
+            .content {
+                padding: 15px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>洛谷新闻台</h1>
+        </div>
+    </header>
+
+    <nav>
+        <div class="container">
+            <a href="https://luogutv.github.io">首页</a>
+            <a href="LGTV1.html">LGTV1-OI新闻联播</a>
+            <a href="LGTV6.html">LGTV6-OI电影</a>
+            <a href="LGTV10.html">LGTV10-科技</a>
+            <a href="LGTV13.html">LGTV13-洛谷娱乐动态</a>
+            <a href="LGTV14.html">LGTV14-OI动画片</a>
+            <a href="https://www.luogu.com.cn/team/97448">关于</a>
+        </div>
+    </nav>
+
+    <div class="content">
+        <div class="container">
+            <h2>欢迎来到洛谷新闻台</h2>
+            <p>洛谷新闻台致力于为您提供最新、最全面的OI新闻资讯。我们关注国内外OI时事热点，涵盖算法、科技、娱乐动态等多个领域。</p>
+            <p>我们的团队由经验丰富的记者和编辑组成，致力于为您提供准确、客观的OI新闻报道。</p>
+            <p>请关注我们的网站和社交媒体，获取最新的新闻动态。</p>
+        </div>
+    </div>
+
+    <footer>
+        <div class="container">
+            <p>© 2025 洛谷新闻台. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
